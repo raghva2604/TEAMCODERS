@@ -1,0 +1,13 @@
+<h2>Access Logs</h2>
+
+<div style="height:300px; overflow:auto; border:1px solid black;">
+{% for log in logs %}
+  <p>{{ log }}</p>
+{% endfor %}
+</div>
+
+<h3>Verify Student</h3>
+<form action="/verify" method="POST">
+  <input name="roll" placeholder="Enter Roll Number">
+  <button type="submit">Check</button>
+</form>

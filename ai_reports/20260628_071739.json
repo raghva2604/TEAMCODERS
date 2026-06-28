@@ -1,0 +1,11 @@
+{
+  "people": 1,
+  "objects": [
+    "Laptop",
+    "Backpack"
+  ],
+  "environment": "Indoor",
+  "lighting": "Normal",
+  "risk": "LOW",
+  "summary": "Unknown person detected with Laptop, Backpack near the entrance."
+}
