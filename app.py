@@ -71,10 +71,7 @@ app.config.update({
 BUILD_DIR = os.path.join(app.root_path, "frontend", "build")
 
 # MongoDB Configuration
-MONGO_URI = os.environ.get(
-    "MONGO_URI",
-    "mongodb+srv://raghava3113:Thaanunenu@cluster0.bkbjf4r.mongodb.net/?appName=Cluster0"
-)
+MONGO_URI = os.environ.get("MONGO_URI")
 EMAIL_ADDRESS = os.environ.get("EMAIL_ADDRESS")
 EMAIL_PASSWORD = os.environ.get("EMAIL_PASSWORD")
 ADMIN_EMAIL = os.environ.get("ADMIN_EMAIL")
