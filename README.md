@@ -194,6 +194,10 @@ MONGO_URI=mongodb://localhost:27017
 
 > Email and Telegram alerts are optional. The system will continue to function without them.
 
+## Afferens / AI Reporting Note
+
+The current implementation of the Afferens-based reporting flow does not use any external API key or cloud service. It generates observation summaries and alert content locally inside the project using the logic in [ai/afferens.py](ai/afferens.py). If you later connect this module to an external AI service, you can add the required credentials to your environment variables at that time.
+
 ## Running the Application
 
 ### Start the Backend
